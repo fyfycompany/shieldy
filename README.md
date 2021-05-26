@@ -8,7 +8,7 @@ This is the code for the anti-spam Telegram bot I've built. Enjoy and feel free 
 
 ## Local launch
 
-1. Clone this repo: `git clone https://github.com/backmeupplz/shieldy`
+1. Clone this repo: `git clone https://github.com/sotcsa/shieldy`
 2. Launch the [mongo database](https://www.mongodb.com/) locally
 3. Create `.env` with the environment variables listed below
 4. Run `yarn install` in the root folder
@@ -18,7 +18,7 @@ And you should be good to go! Feel free to fork and submit pull requests. Thanks
 
 ## Docker
 
-1. Clone this repo: `git clone https://github.com/backmeupplz/shieldy`
+1. Clone this repo: `git clone https://github.com/sotcsa/shieldy`
 2. Run `git secret reveal`
 3. Run `docker-compose up -d`
 
@@ -28,10 +28,6 @@ And you should be good to go! Feel free to fork and submit pull requests. Thanks
 - `MONGO`— URL of the mongo database
 
 Also, please, consider looking at `.env.sample`.
-
-# Continuous integration
-
-Any commit pushed to master gets deployed to @shieldy_bot via [CI Ninja](https://github.com/backmeupplz/ci-ninja).
 
 # License
 
