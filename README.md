@@ -19,7 +19,7 @@ And you should be good to go! Feel free to fork and submit pull requests. Thanks
 ## Docker
 
 1. Clone this repo: `git clone https://github.com/backmeupplz/shieldy`
-2. Replace the dummy environment variables in `docker-compose.yml` with the ones listed below
+2. Run `git secret reveal`
 3. Run `docker-compose up -d`
 
 ## Environment variables

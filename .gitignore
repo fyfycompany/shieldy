@@ -2,3 +2,8 @@ node_modules
 dist
 .env
 updates.log
+.gitsecret/keys/random_seed
+!*.secret
+.secrets/mongo_admin_password.txt
+.secrets/mongo_shieldy_password.txt
+.secrets/shieldy_token.txt
